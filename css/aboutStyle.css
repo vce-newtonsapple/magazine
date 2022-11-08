@@ -1,7 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(44, 51, 51);
+    background-color: rgb(37, 37, 37);
+}
+*{
+    -webkit-tap-highlight-color: transparent;
 }
 #main_img{
     position: relative;
