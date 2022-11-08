@@ -171,7 +171,7 @@ body{
 }
 .search_btn{
     margin-left: 5px;
-    background-color: rgb(179, 179, 179);
+    background-color: whitesmoke;
     border-radius: 0px;
     border: none;
     width: 39px;
@@ -188,7 +188,7 @@ body{
     border: none;
     color: white;
     padding-left: 10px;
-    background-color: rgb(179, 179, 179);
+    background-color: whitesmoke;
     width: 400px;
     margin-top: 5px;
     margin-left: 5px;
