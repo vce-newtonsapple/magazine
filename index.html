@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
     <script src="js/indexscript.js"></script>
     <script async src="https://api.countapi.xyz/hit/mysite.com/visits?callback=cb"></script>
 </head>
 <body>
     <div class="menu">
-        <img class="logos" id="logo1" src="media/logo.PNG" alt="Logo">
+        <img class="logos" id="logo1" src="media/logo_transparent.PNG" alt="Logo">
         <span class="logotext">|&nbsp&nbsp&nbsp&nbsp&nbspNewton's Apple</span>
         <ul class="linkList">
             <li><a href="index.html">Home</a></li>
@@ -24,7 +25,7 @@
         <a class="edition_link" href="https://drive.google.com/file/d/1ugx4FehbmctfxjZoLIcIUuy91vH2B6o8/view" target="_blank" onclick="updateViews()">
             <div class="main_edition">
                 <img class="main_img" src="media/main_pic.jpg" alt="">
-                <div id="main_edition_title"><p class="inner_title">2022 September Edition</p><p class="inner_title" id="main_count"></p></div>
+                <div id="main_edition_title"><p class="inner_title">2022 November Edition</p><p class="inner_title" id="main_count"></p></div>
             </div>
         </a>
         <div class="main_content">
@@ -37,7 +38,7 @@
         <button class="search_btn" onclick="search_func()">Go</button>
     </div>
     <div class="prev_editions">
-        <a class="edition_link" href="https://drive.google.com/file/d/15ayHd8UOgUKv9K7_mwctI8g41VMRs1LS/view?usp=drivesdk" target="_blank">
+        <a class="edition_link" href="https://drive.google.com/file/d/15ayHd8UOgUKv9K7_mwctI8g41VMRs1LS/view" target="_blank">
             <div class="edition_blocks" id="mag_1">
                 <img class="block_img" src="media/pic1.jpg" alt="">
                 <div data-target="mag_1" class="block_title">2022 September Edition</div>
@@ -55,6 +56,13 @@
                 <div data-target="mag_3" class="block_title">2022 May Edition</div>
             </div>
         </a>
+    </div>
+    <div class="footer">
+        <p id="footer_text">-Team Newton's Apple</p>
+        <div class="footer_links">
+            <a id="insta_footer" href="https://instagram.com/team_newtonsapple" class="fa fa-instagram"></a>
+            <a id="linkedin_footer" href="#" class="fa fa-linkedin"></a>
+        </div>
     </div>
 </body>
 </html>
