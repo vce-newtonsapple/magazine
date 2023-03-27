@@ -19,7 +19,7 @@ window.addEventListener('keyup', function(event){
 window.onload = (event) => {
     console.log("hellworld");
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/get/NewtonsApple.com/mainArticle");
+    xhr.open("GET", "https://api.countapi.xyz/get/NAmarch2k23.com/mainArticle");
     xhr.responseType = "json";
     xhr.onload = function() {
         var count = document.getElementById("main_count");
@@ -30,7 +30,7 @@ window.onload = (event) => {
 };
 function updateViews(){
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/hit/NewtonsApple.com/mainArticle");
+    xhr.open("GET", "https://api.countapi.xyz/hit/NAmarch2k23.com/mainArticle");
     xhr.responseType = "json";
     xhr.onload = function() {
         var count = document.getElementById("main_count");
