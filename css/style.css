@@ -130,6 +130,7 @@ body{
     width: 100%;
     border: 2px solid transparent;
     border-radius: 5px;
+    margin-bottom: -50px;
 }
 .edition_blocks img:hover{
     border: 2px solid white;
@@ -295,12 +296,11 @@ body{
         height: 106.5px;
         margin-top: -17.5px;
     }
-    .main_edition{
-        width: 80%;
-        margin-left: 10%;
-    }
 }
 @media only screen and (max-width: 750px){
+    .edition_blocks{
+        margin-bottom: -30px;
+    }
     .prev_editions{
         padding: 0;
         width: 80%;
