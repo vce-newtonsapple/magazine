@@ -30,7 +30,7 @@ window.onload = (event) => {
 };
 function updateViews(){
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/hit/NAmarch2k23.com/mainArticle");
+    xhr.open("GET", "https://api.countapi.xyz/hit/NewtonsApple.com/mainArticle");
     xhr.responseType = "json";
     xhr.onload = function() {
         var count = document.getElementById("main_count");
@@ -50,4 +50,24 @@ function burgerClick(){
     else{
         link_list.style.display = "none";
     }
+}
+function aboutMove(){
+    document.getElementsByClassName("about")[0].scrollIntoView()
+}
+
+function getCurrentSlide(){
+    for(var i=0; i<3; i++){
+        var curr = "about_" + i;
+        var elem = document.getElementById(curr);
+        var status = window.getComputedStyle(elem).display;
+        if(status == "block")   return i;
+    }
+}
+
+function moveSlides(n){
+    let num = getCurrentSlide();
+    let curr = "about_" + num;
+    document.getElementById(curr).style.display = "none";
+    curr = "about_" + (Math.abs(num+n))%3;
+    document.getElementById(curr).style.display = "block";
 }
