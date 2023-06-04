@@ -17,7 +17,7 @@
         <ul class="linkList">
             <li><a href="index.html">Home</a></li>
             <li><a target="_blank" href="https://forms.gle/RGRtCXzfH55bjmWJA">Publish</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a onclick="aboutMove()" id="aboutBtn">About</a></li>
         </ul>
         <p id="hamburger" onclick="burgerClick()">☰</p>
     </div>
@@ -78,6 +78,45 @@
                 <div data-target="mag_1" class="block_title">2021 August Edition</div>
             </div>
         </a>
+    </div>
+    <div class="about">
+        <div class="aboutContent" id="about_0">
+            About Us <br> <br>
+            Newton’s Apple is a monthly magazine run by students of E.C.E. at Vasavi College of Engineering. Tune in to find
+            cool and interesting information! <br>
+            Readers of the magazine would have an absolute doubt on the decision of the title of this magazine – “What’s the
+            connection between an electronic magazine and Newton or his apple?” It’s not because this magazine works on any
+            law of Newton. Rather, there is a more logical and comprehensive way of putting it forward; that is – we at
+            ‘Newton’s Apple’ feel that learners should have questions whenever they come across new observation or for that
+            matter any concept through their journey of understanding the science. Had there been no question arisen in the
+            mind of Newton three centuries ago about the free fall of an apple, the mankind might not have gotten to this
+            far in its pursuit of understanding the things happening around the universe.
+        </div>
+        <div class="hod" id="about_1">
+            <img class="prof_img" src="media/HOD.jpg" alt="">
+            <div class="profcontents">
+                "Newtons Apple, Has served as our department magazine over 
+                generations ,filling the gap of imbibing general knowledge into our students , eventually playing the part of alternate teacher.
+                Correctly used this is no less than an opportunity to create
+                a self sustaining environment of knowledge among young Engineers."
+                <br>
+                <br>
+                Dr.E.Sreenivasa Rao (Prof. & HOD - ECE)
+            </div>
+        </div>
+        <div class="prof" id="about_2">
+            <img class="prof_img" src="media/VKM.jpg" alt="">
+            <div class="profcontents">
+                "Newton's apple, being the platform for many students to share their ideas, opinions on different
+                subjects and concepts, is very effective in presenting and reaching all the student community and I
+                completely appreciate their efforts and commitment to integrity."
+                <br>
+                <br>
+                VKM -&nbspAssistant Proffessor (ECE)
+            </div>
+        </div>
+        <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlides(1)">&#10095;</a>
     </div>
     <div class="footer">
         <p id="footer_text">-Team Newton's Apple</p>
