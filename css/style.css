@@ -265,11 +265,13 @@ body{
     width: 60%;
     float: right;
 }
+.hod{
+    display: none;
+}
 .prof{
     display: none;
 }
 .aboutContent{
-    display: none;
     margin: 10px;
     padding: 50px;
     text-align:justify;
