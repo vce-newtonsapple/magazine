@@ -31,7 +31,7 @@ window.onload = (event) => {
 };
 function updateViews(){
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.api-ninjas.com/v1/counter?id=newtonsapple&value=1");
+    xhr.open("GET", "https://api.api-ninjas.com/v1/counter?id=newtonsapple&hit=true");
     api_key = "oyW0OIreUZGOBV6qxtFviQ==PVgpFZUr1QWkpcGZ"
     xhr.setRequestHeader("X-Api-Key", api_key);
     xhr.responseType = "json";
