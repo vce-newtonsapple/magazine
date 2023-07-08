@@ -17,9 +17,10 @@ window.addEventListener('keyup', function(event){
     }
 });
 window.onload = (event) => {
-    console.log("hellworld");
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/get/NAmarch2k23.com/mainArticle");
+    xhr.open("GET", "https://api.api-ninjas.com/v1/counter?id=newtonsapple");
+    api_key = "oyW0OIreUZGOBV6qxtFviQ==PVgpFZUr1QWkpcGZ"
+    xhr.setRequestHeader("X-Api-Key", api_key);
     xhr.responseType = "json";
     xhr.onload = function() {
         var count = document.getElementById("main_count");
@@ -30,15 +31,12 @@ window.onload = (event) => {
 };
 function updateViews(){
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/hit/NewtonsApple.com/mainArticle");
+    xhr.open("GET", "https://api.api-ninjas.com/v1/counter?id=newtonsapple&value=1");
+    api_key = "oyW0OIreUZGOBV6qxtFviQ==PVgpFZUr1QWkpcGZ"
+    xhr.setRequestHeader("X-Api-Key", api_key);
     xhr.responseType = "json";
-    xhr.onload = function() {
-        var count = document.getElementById("main_count");
-        count.innerHTML = `views: ${this.response.value}`;
-        console.log(count.innerHTML);
-        // alert(`This button has been clicked ${this.response.value} times!`);
-    }
     xhr.send();
+    console.log("hello");
 }
 function burgerClick(){
     var link_list = document.getElementsByClassName("linkList")[0];
