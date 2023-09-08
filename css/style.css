@@ -50,7 +50,7 @@ body{
     text-decoration: none;
 }
 .main_class{
-    /* background-image: url("https://img.freepik.com/free-vector/dark-blue-polygonal-background_23-2148138192.jpg?w=740&t=st=1694078101~exp=1694078701~hmac=9e3b9565056db52c11ccbeb4b5adba0fc2c4230cef3f0d40038f127a85de1d86"); */
+    background-image: url("https://images.unsplash.com/photo-1464850598256-dac80286d6ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
     padding-top: 30px;
     padding-bottom: 20px;
     column-count: 2;
@@ -363,12 +363,13 @@ body{
         margin-left: 10%;
     }
     .main_class{
+        background-image: none;
         padding: 0;
         padding-top: 30px;
         column-count: 1;
     }
     .main_content{
-        margin-top: 20px;
+        /* margin-top: 20px; */
         text-align: center;
         margin-bottom: 20px;
         margin-left: 10%;
