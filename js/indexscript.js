@@ -70,7 +70,14 @@ function moveSlides(n){
     document.getElementById(curr).style.display = "block";
 }
 
-function rotator(){
+function rotator(flag){
     let elem = document.getElementById("triangle");
-    elem.style.transform = "rotate(180deg)";
+    if(flag == 1){
+        elem.style.transform = "rotate(180deg)";
+        flag = 0;
+    }
+    else{
+        elem.style.transform = "rotate(-180deg)";
+        flag = 1;
+    }
 }
