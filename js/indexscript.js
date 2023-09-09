@@ -69,3 +69,8 @@ function moveSlides(n){
     curr = "about_" + (Math.abs(num+n))%3;
     document.getElementById(curr).style.display = "block";
 }
+
+function rotator(){
+    let elem = document.getElementById("triangle");
+    elem.style.transform = "rotate(180deg)";
+}
