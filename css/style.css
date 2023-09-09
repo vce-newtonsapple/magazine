@@ -305,6 +305,9 @@ body{
     .menu{
         height: 70px;
     }
+    #triangle{
+        margin-top: 4px;
+    }
     #hamburger{
         display: block;
         height: 50px;
