@@ -145,7 +145,6 @@ body{
 }
 .edition_blocks img{
     border: 2px solid transparent;
-    border-radius: 5px;
 }
 .block_title{
     color: black;
@@ -153,12 +152,10 @@ body{
     padding-top: 15px;
     font-style: italic;
     background-color: rgb(188, 205, 247);
-    border: 2px solid transparent;
-    width: calc(100%-10px);
     height: 40px;
-    margin-left: 3.5px;
+    margin-left: 2.5px;
     position: relative;
-    top: -66px;
+    top: -62px;
 }
 
 .search_area{
