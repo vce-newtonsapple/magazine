@@ -24,7 +24,7 @@ window.onload = (event) => {
     xhr.responseType = "json";
     xhr.onload = function() {
         var count = document.getElementById("main_count");
-        count.innerHTML = `views: ${this.response.value}`;
+        count.innerHTML = `👁 ${this.response.value}`;
         console.log(count.innerHTML);
     }
     xhr.send();
